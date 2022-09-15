@@ -138,3 +138,9 @@ setInterval(() => {
 
   document.getElementById("show-time").innerHTML = `${startTime ? timeSpent : 0} seconds`;
 }, 1000);
+
+
+document.getElementById("clear-all").addEventListener('click', function(){
+  localStorage.clear();
+  location.reload();
+})
