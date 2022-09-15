@@ -12,7 +12,20 @@
 <body>
     <h1 class="title"><img src="./logo.png" /></h1>
     <section>
-        
+        <div class="box-container">
+            <h2 style="padding-bottom: 15px ;">Q1. What are the differences between local storage and session storage?</h2>
+            <p style="padding-bottom: 15px;">localStorage is a property that allows JavaScript sites and apps to save key-value pairs in a web browser with no expiration date. This means the data stored in the browser will persist even after the browser window is closed. <br><br>
+            The sessionStorage object stores data only for a session. It means that the data stored in the sessionStorage will be deleted when the browser is closed. A page session lasts as long as the web browser is open and survives over the page refresh.
+            </p>
+            <h2 style="padding-bottom: 15px;">Q2. Defference between Global scope and Block scope.</h2>
+            <p style="padding-bottom: 15px;">global scope is the context where everything in a Javascript program executes by default. This scope includes all variables, objects, and references that are not contained within a customized scope defined by a programmer. Global scope is the entire Javascript execution environment. <br><br>
+                The block scope restricts a variable's access to the block in which it is declared. The var keyword assigns a function scope to the variable. Unlike the var keyword, the let keyword allows the script to restrict access to the variable to the nearest enclosing block.
+            </p>
+            <h2 style="padding-bottom: 15px ;">Q3. How does Javascript eventloop works?</h2>
+            <p style="padding-bottom: 15px ;">JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. This model is quite different from models in other languages like C and Java. The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it. </p>
+            <h2 style="padding-bottom: 15px ;">Q4. How can we get undefined in JavaScript?</h2>
+            <p style="padding-bottom: 15px ;">when you call a non-existent property or method of an object you will get undefined. A variable that has not been assigned a value is of type undefined. A method or statement also returns undefined if the variable that is being evaluated does not have an assigned value. A function returns undefined if a value was not returned.</p>
+        </div>
     </section>
 </body>
 </html>
